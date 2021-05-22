@@ -1,0 +1,43 @@
+h1 {
+    color: red;
+    font-family: Arial;
+    border: 6px solid black;
+}
+h2 {
+    color: green;
+    font-family: Georgia;
+    border: 5px dotted gray;
+}
+h3 {
+    color: indigo;
+    font-family: Gill Sans;
+    border: 4px dashed burlywood;
+}
+h4 {
+    background-color: red;
+}
+h5 {
+    background-color: green;
+}
+h6 {
+    background-color: burlywood;
+}
+p {
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+span {
+    font-size: 20px;
+    font-weight: 600;
+    font-family: cursive;
+    text-decoration: underline;
+}
+ol, ul {
+    font-weight: inherit;
+    font-size: 20px;
+    color: lightcoral;
+}
+img {
+    border: 5px solid black;
+}
