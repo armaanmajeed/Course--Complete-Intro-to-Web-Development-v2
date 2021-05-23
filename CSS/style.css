@@ -1,3 +1,10 @@
+.hover {
+    color: darkcyan;
+    
+}
+.hover:hover {
+    color: darkblue;
+}
 h1 {
     color: red;
     font-family: Arial;
