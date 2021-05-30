@@ -40,3 +40,40 @@ function addTwo(number) {
    return number += 2;
 }
 console.log(addTwo(5));
+
+// Builtins
+const sentence = "This HaS wEiRd CaSiNg On It ";
+console.log(sentence.toLowerCase());
+console.log(sentence.toUpperCase());
+
+// Objects
+const person = {
+    name: "AMK",
+    city: "Jo",
+    state: "Raj",
+    favFood: "Momos",
+};
+console.log(person);
+console.log(person.name);
+console.log(person["name"]);
+
+// Arrays
+const daysOfTheWeek = [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday",
+    "Sunday"
+];
+console.log(daysOfTheWeek);
+console.log(daysOfTheWeek[0]);
+console.log(daysOfTheWeek[1]);
+console.log(daysOfTheWeek[6]);
+
+// Event Listener
+const button = document.querySelector('.event-button');
+button.addEventListener('click', function () {
+    alert("Submitted");
+});
