@@ -65,11 +65,11 @@ function handleMath(value) {
 };
 
 function flushOperation(intBuffer) {
-    if (flushOperation === "+") {
+    if (previousOperator === "+") {
         runningTotal += intBuffer;
-    } else if (flushOperation === "-") {
+    } else if (previousOperator === "-") {
         runningTotal -= intBuffer;
-    } else if (flushOperation === "x") {
+    } else if (previousOperator === "x") {
         runningTotal *= intBuffer;
     } else {
         runningTotal /= intBuffer;
