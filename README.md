@@ -1,16 +1,16 @@
 # Table of Contents
 ```
-  * Introducing HTML
+  1. Introducing HTML
     * Basic HTML
     * HTML Elements
     * HTML Image, Form and Table Elements
     * HTML Attributes
-  * Learning CSS
+  2. Learning CSS
     * CSS Rules
     * CSS Selectors & The Cascades
     * CSS Floats & Flexbox
-  * Learning JS
+  3. Learning JS
     * Number, Strings, Booleans & Loops
     * Functions, Scope, Arrays
-  * Calculator Project
+  4. Calculator Project
 ```
